@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #"
+	],
+	"key": {
+		"#": [
+			"minecraft:hay_block"
+		]
+	},
+	"result": {
+		"id": "minecraft:leather_helmet",
+		"components": {
+			"minecraft:custom_name": {
+				"text": "Ржанная Шапка",
+				"color": "yellow"
+			},
+			"minecraft:dyed_color": 15049994,
+			"minecraft:base_color": "yellow",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "tompivas_breadhelm_armor",
+					"amount": -1,
+					"operation": "add_value"
+				},
+				{
+					"type": "minecraft:block_interaction_range",
+					"id": "tompivas_breadhelm_block",
+					"amount": 0.3,
+					"operation": "add_multiplied_base"
+				}
+			]
+		}
+	}
+}

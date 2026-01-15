@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": [
+			"minecraft:hay_block"
+		]
+	},
+	"result": {
+		"id": "minecraft:leather_chestplate",
+		"components": {
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:movement_speed",
+					"id": "tompivas_breadchestplate_movespeed",
+					"amount": 0.15,
+					"operation": "add_multiplied_base",
+					"slot": "chest"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "tompivas_breadchestplate_armor",
+					"amount": -1,
+					"operation": "add_value",
+					"slot": "chest"
+				}
+			],
+			"minecraft:custom_name": {
+				"text": "Ржанная Куртка",
+				"color": "yellow"
+			},
+
+			"minecraft:dyed_color": 15049994
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+
+    "pattern": [
+        "X#X",
+        "B#B",
+        "X#X"
+    ],
+
+    "key": {
+        "X": "sugar",
+        "#": "water_bucket",
+        "B": "bread"
+    },
+
+    "result": {
+        "id": "wheat",
+        "components": {
+            "custom_name": "Набор брожения",
+            "lore": ["Используется для создания более качественных напитков.", "(нажмите Правый Клик чтобы открыть меню)"],
+            "item_model": "barrel",
+            
+            "custom_data": {
+                "tompivo_brozenye_kit": true
+            },
+
+            "consumable": {
+                "animation": "none",
+                "has_consume_particles": false,
+                "consume_seconds": 99999999
+
+            },
+
+            "use_cooldown": {
+                "seconds": 1,
+                "cooldown_group": "tompivas:menu_items"
+            }
+        }
+    }
+}

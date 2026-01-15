@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tompivosimple",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "A#A",
+    " B "
+  ],
+  "key": {
+    "#": [
+      "minecraft:wheat_seeds"
+    ],
+    "A": [
+      "minecraft:wheat"
+    ],
+    "B": [
+      "minecraft:glass_bottle"
+    ]
+  },
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+        "custom_name": "§rЖидкий Хлеб",
+        "lore": ["я лучше буду срать кишками чем посажу себе печень"],
+        
+        "minecraft:potion_contents": {
+            "custom_color": 9413158,
+
+            "custom_effects": [
+                {
+                    "id": "regeneration",
+                    "show_particles": false,
+                    "duration": 250
+                },
+                {
+                    "id": "hunger",
+                    "duration": 400,
+                    "show_particles": false
+                }
+        ]
+        }
+    }
+  }
+}

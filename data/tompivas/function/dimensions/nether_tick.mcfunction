@@ -1,0 +1,1 @@
+execute as @a[scores={respawn=1}] if score @s is_in_nether matches 1 in minecraft:the_nether run function tompivas:dimensions/nether_teleport_trapped_player

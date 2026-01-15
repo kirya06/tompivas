@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tompivosimple",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "A#A",
+    " B "
+  ],
+  "key": {
+    "#": [
+      "minecraft:potato"
+    ],
+    "A": [
+      "minecraft:carrot"
+    ],
+    "B": [
+      "minecraft:glass_bottle"
+    ]
+  },
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+        "custom_name": "Жидкий Сельхоз",
+        "lore": ["я посажу печень и буду срать кишками"],
+
+        "potion_contents": {
+            "custom_color": 5658202,
+            "custom_effects": [
+                {
+                    "id": "poison",
+                    "duration": 250
+                },
+                {
+                    "id": "minecraft:hunger",
+                    "duration": 250
+                },
+                {
+                    "id": "infested",
+                    "duration": 250
+                }
+            ]
+        }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_on_fire": true
+					}
+				},
+				"item": {
+					"components": {
+						"minecraft:custom_data": {
+							"tompivas_spirt": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tompivas:dimensions/nether_travel"
+	}
+}

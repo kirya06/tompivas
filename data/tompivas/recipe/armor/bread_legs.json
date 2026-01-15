@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": [
+			"minecraft:hay_block"
+		]
+	},
+	"result": {
+		"id": "minecraft:leather_leggings",
+		"components": {
+			"minecraft:custom_name": {
+				"text": "Ржанные Штаны",
+				"color": "yellow"
+			},
+			"minecraft:dyed_color": 15049994,
+			"minecraft:base_color": "yellow",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:movement_efficiency",
+					"id": "tompivas_breadlegs_move",
+					"amount": 0.5,
+					"operation": "add_multiplied_base"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "tompivas_breadlegs_armor",
+					"amount": -1,
+					"operation": "add_value"
+				}
+			]
+		}
+	}
+}

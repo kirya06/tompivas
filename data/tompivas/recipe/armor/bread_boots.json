@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"   ",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": [
+			"minecraft:hay_block"
+		]
+	},
+	"result": {
+		"id": "minecraft:leather_boots",
+		"components": {
+			"minecraft:custom_name": {
+				"text": "Ржанные Говнодавы",
+				"color": "yellow"
+			},
+			"minecraft:dyed_color": 15049994,
+			"minecraft:base_color": "yellow",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "tompivas_breadboots_armor",
+					"amount": -2,
+					"operation": "add_value"
+				},
+				{
+					"type": "minecraft:safe_fall_distance",
+					"id": "tompivas_breadboots_fall",
+					"amount": 1.05,
+					"operation": "add_multiplied_base"
+				}
+			]
+		}
+	}
+}

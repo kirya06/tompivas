@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "t": {
+            "trigger": "tick"
+        }
+    },
+
+    "rewards": {
+        "function": "tompivas:item/brozenye_kit_cooldown"
+    }
+}

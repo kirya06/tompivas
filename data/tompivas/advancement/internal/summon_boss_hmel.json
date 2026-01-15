@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "item": {
+            "trigger": "using_item",
+
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{tompivas_summon_hmel: true}"
+                    }
+                }
+            }
+
+        }
+    },
+    "rewards": {
+        "function": "tompivas:boss/summon_hmel"
+    }
+}

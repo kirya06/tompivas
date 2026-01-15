@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": {
+					"slots": {
+						"weapon.*": {
+							"items": [
+								"minecraft:ender_eye"
+							]
+						}
+					}
+				},
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:end_portal_frame"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "tompivas:dimensions/end_portal_clear"
+	}
+}

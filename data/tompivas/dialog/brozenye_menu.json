@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "меню брожения",
+  
+  "after_action": "close",
+
+  "inputs": [
+    {
+      "label": "Тип",
+      "key": "drink_type",
+      "width": 100,
+      "type": "single_option",
+      "options": [
+        {
+          "id": "0",
+          "display": "\u00A7eПиво"
+        },
+        {
+          "id": "1",
+          "display": "\u00A7eБрага"
+        },
+        {
+          "id": "2",
+          "display": "\u00A7eКвас"
+        }
+      ],
+      "label_visible": false
+    }
+  ],
+
+  "actions": [
+    {
+      "label": "Начать процесс",
+      "action": {
+        "type": "dynamic/run_command",
+        "template": "function tompivas:item/brozenye_kit_spawn {'drink': '$(drink_type)'}"
+      }
+    }
+  ]
+}

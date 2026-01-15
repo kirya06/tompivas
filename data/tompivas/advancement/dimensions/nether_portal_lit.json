@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": {
+					"slots": {
+						"weapon.*": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				},
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:obsidian"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "tompivas:dimensions/nether_portal_clear"
+	}
+}

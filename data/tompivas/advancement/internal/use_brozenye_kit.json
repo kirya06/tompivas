@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "item": {
+            "trigger": "using_item",
+
+            "conditions": {
+                "item": {
+                    "items": "wheat",
+                    "predicates": {
+                        "custom_data": "{tompivo_brozenye_kit: true}"
+                    }
+                }
+            }
+
+        }
+    },
+    "rewards": {
+        "function": "tompivas:item/brozenye_kit"
+    }
+}

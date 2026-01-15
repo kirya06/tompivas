@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:campfire"
+		},
+		"title": "101%",
+		"description": "Используй костёр и сырую агрокультуру чтобы создать чистый спирт"
+	},
+	"parent": "tompivas:tompivoroot",
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:custom_data": {
+								"tompivas_spirt": true
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

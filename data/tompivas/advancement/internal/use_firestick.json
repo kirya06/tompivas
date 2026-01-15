@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "item": {
+            "trigger": "using_item",
+
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{tompivas_firestick: true}"
+                    }
+                }
+            }
+
+        }
+    },
+    "rewards": {
+        "function": "tompivas:item/firestick"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Томпиво",
+        "description": "Томский Пивоваренный Завод prod.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "icon": {
+            "id": "fishing_rod",
+            "components": {
+                "item_model": "tompivas:pivas"
+            }
+        },
+        "background": "block/hay_block_side"
+    },
+
+    "criteria": {
+        "t": {
+            "trigger": "tick"
+        }
+    },
+
+    "requirements": [
+        ["t"]
+    ]
+}

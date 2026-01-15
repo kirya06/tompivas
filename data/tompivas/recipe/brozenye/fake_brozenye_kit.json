@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+
+    "pattern": [
+        "X#X",
+        "B#B",
+        "X#X"
+    ],
+
+    "key": {
+        "X": "bone",
+        "#": "lava_bucket",
+        "B": "bread"
+    },
+
+    "result": {
+        "id": "wheat",
+        "components": {
+            "custom_name": "Набор ЭКСТРЕМАЛЬНОГО брожжения",
+            "lore": ["нажмите ПРАВЫЙ КЛИК чтобы установить ЭКСТРЕМАЛЬНую бочку.."],
+            "item_model": "barrel",
+            
+            "custom_data": {
+                "tompivas_summon_hmel": true
+            },
+
+            "consumable": {
+                "animation": "none",
+                "has_consume_particles": false,
+                "consume_seconds": 999
+
+            },
+
+            "use_cooldown": {
+                "seconds": 1,
+                "cooldown_group": "tompivas:menu_items"
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherrack"
+		},
+		"title": "Escape from Netherakov",
+		"description": "Вы успешно сбежали из незера живыми благодаря спирту",
+		"frame": "challenge",
+        "hidden": true
+	},
+	"parent": "tompivas:spirt",
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

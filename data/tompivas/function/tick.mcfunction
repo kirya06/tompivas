@@ -1,0 +1,2 @@
+function tompivas:item/brozenye_kit_tick
+function tompivas:dimensions/nether_tick

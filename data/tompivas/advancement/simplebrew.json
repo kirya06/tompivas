@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": "Настойкавар",
+        "description": "Скрафти своё первое (алкогольное) творенье из подручных средств",
+        "icon": {
+            "id": "glass_bottle"
+        }
+    },
+    "criteria": {
+        "craft1": {
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "tompivas:simple_hleb"
+            }
+        },
+
+        "craft2": {
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "tompivas:simple_retka"
+            }
+        },
+
+        "craft3": {
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "tompivas:simple_morkov"
+            }
+        }
+    },
+
+    "requirements": [ 
+        ["craft1", "craft2", "craft3"]
+    ],
+
+    "parent": "tompivas:tompivoroot"
+}
