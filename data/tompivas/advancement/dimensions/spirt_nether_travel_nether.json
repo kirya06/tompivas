@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_nether"
+					}
+				},
+				
+				"item": {
+					"components": {
+						"minecraft:custom_data": {
+							"tompivas_spirt_nether": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "tompivas:dimensions/nether_travel"
+	}
+}

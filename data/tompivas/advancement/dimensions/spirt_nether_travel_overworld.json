@@ -6,6 +6,9 @@
 				"player": {
 					"flags": {
 						"is_on_fire": true
+					},
+					"location": {
+						"dimension": "minecraft:overworld"
 					}
 				},
 				"item": {
