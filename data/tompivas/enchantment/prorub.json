@@ -1,0 +1,43 @@
+{
+	"description": "Глубокий рыбак",
+	"supported_items": "#minecraft:enchantable/fishing",
+	"primary_items": "#minecraft:enchantable/fishing",
+	"weight": 1,
+	"max_level": 5,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 5
+	},
+	"max_cost": {
+		"base": 80,
+		"per_level_above_first": 2
+	},
+	"anvil_cost": 1,
+	"slots": [
+		"mainhand",
+		"offhand"
+	],
+	"effects": {
+		"minecraft:fishing_luck_bonus": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "#is_ocean"
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": {
+                        "type":"linear",
+                        "base": 1,
+                        "per_level_above_first": 0.25
+                    }
+				}
+			}
+		]
+	}
+}
