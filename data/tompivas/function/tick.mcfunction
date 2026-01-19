@@ -2,3 +2,4 @@ execute as @a run attribute @s minecraft:max_health modifier add tompivas_health
 
 function tompivas:item/brozenye_kit_tick
 function tompivas:dimensions/nether_tick
+function tompivas:dimensions/end_travel_tick
