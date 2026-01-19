@@ -1,0 +1,8 @@
+{
+    "description": "Кино - Спокойная ночь",
+    "length_in_seconds": 383,
+    "comparator_output": 1,
+	"sound_event": {
+        "sound_id":"tompivas:music_disc.goodnight"
+    }
+}

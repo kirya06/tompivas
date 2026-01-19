@@ -1,0 +1,8 @@
+{
+    "description": "Секрет - В жарких странах",
+    "length_in_seconds": 280,
+    "comparator_output": 1,
+	"sound_event": {
+        "sound_id":"tompivas:music_disc.zharkih_stranah"
+    }
+}
