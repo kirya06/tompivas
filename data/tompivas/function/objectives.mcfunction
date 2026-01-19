@@ -6,6 +6,8 @@ scoreboard objectives add firestick_cooldown dummy
 
 scoreboard objectives add is_in_nether dummy
 
+scoreboard objectives add nether_portal_unlocked dummy
+
 # generic
 scoreboard objectives add posX dummy
 scoreboard objectives add posY dummy
