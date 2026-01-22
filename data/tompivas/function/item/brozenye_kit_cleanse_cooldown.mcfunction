@@ -1,0 +1,1 @@
+advancement revoke @s only tompivas:internal/use_brozenye_kit

@@ -3,6 +3,8 @@
   "title": "меню брожения",
   
   "after_action": "close",
+  "can_close_with_escape": true,
+  "pause": false,
 
   "inputs": [
     {
@@ -34,6 +36,13 @@
       "action": {
         "type": "dynamic/run_command",
         "template": "function tompivas:item/brozenye_kit_spawn {'drink': '$(drink_type)'}"
+      }
+    },
+    {
+      "label": "Отмена",
+      "action": {
+        "type": "run_command",
+        "command": "advancement revoke @s only tompivas:internal/use_brozenye_kit"
       }
     }
   ]

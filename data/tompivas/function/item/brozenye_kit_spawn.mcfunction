@@ -1,3 +1,5 @@
+advancement revoke @s only tompivas:internal/use_brozenye_kit
+
 summon block_display ~-0.5 ~ ~-0.5 { block_state:{Name:"barrel", Properties:{facing: "up"}}, Tags:["tompivas_brozenye_block"]}
 playsound minecraft:block.barrel.open block @a
 
